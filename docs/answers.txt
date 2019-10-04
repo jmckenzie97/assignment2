@@ -1,0 +1,39 @@
+A.
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+B.
+10 commits total
+git rev-list --all --count
+
+C.
+Wed Sep 25 18:13:30 2019 -0400
+git log .gitignore
+
+D.
+To work on one part of a project while not effecting people working on another part of the project
+To modify the project without having to worry about being unable to roll the changes back easily
+
+E.
+Git log shows the commit log. Git status shows what files still need to be committed or pushed
+
+F.
+git log Vehicle.h
+
+G.
+git log --all --grep='file'
+
+H.
+Inheritance: Basing a class off of another class i.e a fishing boat is a child of a boat
+Polymorphism: Objects of different types can be accessed through the same interface
+Encapsulation: Bundling data and the functions that act upon that data into one unit i.e. an object/class
+
+I.
+The main difference is that in Dictator-Lieutenant, all the developers work are integrated together by the Lieutenants and then the Dictator integrates that work into the main project
+while in Integration manager the developers post their work on their public repo and the integration manager is in charge of integrating the developers public repo into the main
+
+J.
+Having the Lieutenants there to proofread the work before it is committed to the repo would probably solve a lot of merge conflicts, especially with such a large dev team
