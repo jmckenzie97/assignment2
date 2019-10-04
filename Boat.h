@@ -20,7 +20,10 @@ public:
 
     virtual ~Boat();
     virtual double mileageEstimate(double time);
+    void setLength(int length);
+    int getLength();
     virtual string toString();
+
 };
 
 
