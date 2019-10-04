@@ -37,3 +37,7 @@ while in Integration manager the developers post their work on their public repo
 
 J.
 Having the Lieutenants there to proofread the work before it is committed to the repo would probably solve a lot of merge conflicts, especially with such a large dev team
+
+5.
+Driving simulator does use Polymorphism, i.e you can access a powered vehicle through object
+It also uses Encapsulation in basically every class
